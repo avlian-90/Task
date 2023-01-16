@@ -1,0 +1,172 @@
+.second-section {
+    margin-bottom: 200px;
+}
+
+.subs__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: calc(100% - 2 * 545px);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.sub__title {
+    margin-bottom: 100px;
+}
+
+.sub__card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(141, 159, 244, 0.3);
+    -webkit-backdrop-filter: blur(5.5px);
+            backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    max-width: 520px;
+    width: 100%;
+    padding: 50px 65px;
+    text-align: center;
+    position: relative;
+}
+
+.sub__time {
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 133%;
+    color: rgba(255, 255, 255, 0.86);
+    margin-bottom: 50px;
+}
+
+.sub__price {
+    font-weight: 700;
+    font-size: 80px;
+    position: relative;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.sub__price::before {
+    content: '$4.99';
+    font-weight: 600;
+    font-size: 31px;
+    position: absolute;
+    text-align: left;
+    top: 10%;
+    left: -80px;
+}
+
+.sub__price::after {
+    content: '';
+    width: 73px;
+    height: 3px;
+    position: absolute;
+    top: 30%;
+    left: -80px;
+    -webkit-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+    border-radius: 2px;
+    background-color: #F354B4;
+}
+
+.sub__pum {
+    font-weight: 600;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.sub__tick {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 175px;
+    margin: 10px auto 0;
+    gap: 17px;
+    text-align: left;
+}
+
+.sub__tick:nth-child(1) {
+    margin-top: 30px;
+}
+
+.sub__feature {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.22;
+}
+
+.sub__btn {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 15px 40px;
+    outline: none;
+    border: 1px solid #8276FF;
+    background-color: #8276FF;
+    border-radius: 31.0938px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.sub__discount {
+    position: absolute;
+    right: -40px;
+    top: -50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 5px solid #f4a3f4;
+    border-radius: 50%;
+    -webkit-box-shadow:
+        0 0px 10px 10px #6F2D5F,
+        inset 0 0px 10px 10px #6F2D5F;
+            box-shadow:
+        0 0px 10px 10px #6F2D5F,
+        inset 0 0px 10px 10px #6F2D5F;
+    width: 170px;
+    height: 170px;
+}
+
+.sub__discount p {
+    font-family: 'Design';
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.sub__dur {
+    text-align: right;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.y_sub__price::before {
+    content: '$4.09';
+}
+
+.sub__neon {
+    position: absolute;
+    -webkit-filter: blur(115px);
+            filter: blur(115px);
+    width: 200px;
+    height: 200px;
+}
+
+.red_sub__neon {
+    top: -50px;
+    right: -40px;
+    background: rgba(253, 119, 159, 0.1);
+}
+
+.blue_sub__neon {
+    bottom: -50px;
+    left: -40px;
+    background: rgba(99, 133, 253, 0.1);
+}

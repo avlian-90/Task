@@ -1,0 +1,57 @@
+.footer {
+    padding: 119px 0 100px 300px;
+    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+}
+.footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.footer__info, .footer__img {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+}
+
+.footer__img {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+
+.footer__img img {
+    width: 100%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+}
+
+.footer__sale {
+    font-weight: 600;
+    font-size: 49px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.footer__btn {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 15px 40px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #8276FF;
+    background: #8276FF;
+    border-radius: 31.0938px;
+    cursor: pointer;
+}

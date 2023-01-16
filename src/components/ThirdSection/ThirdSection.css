@@ -1,0 +1,10 @@
+.swiper {
+    margin-bottom: 100px;
+    width: 100%;
+    height: fit-content;
+}
+.swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

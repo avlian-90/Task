@@ -1,0 +1,193 @@
+.fourth-section {
+    margin-bottom: 180px;
+}
+h2 {
+    text-align: center;
+}
+
+.feature__container {
+    background: -o-linear-gradient(302.81deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    border-radius: 26px;
+    padding: 73px 46px 130px 54px;
+}
+
+.yellow {
+    color: #FFC759;
+    font-style: italic;
+    margin-bottom: 80px;
+}
+
+.feature__tabs {
+    overflow: hidden;
+}
+
+.feature__tabs_header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 37px;
+}
+
+.feature__tab_switch {
+    width: calc(100% / 6);
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.feature__tab_switch.active .feature__tab_title {
+    font-weight: 700;
+}
+
+.feature__tabs_indicator {
+    width: 100%;
+    height: 1.5px;
+    background-color: #E7E9F2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 10px;
+}
+
+.feature__tabs_indicator div {
+    position: relative;
+    width: calc(100% / 6);
+    height: 5px;
+    background: #fff;
+    left: 0px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -webkit-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+.feature__tabs_body {
+    position: relative;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+.feature__tabs_body>div {
+    display: none;
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
+    -webkit-transition: display 500ms ease-in-out 0ms,
+        -webkit-transform 500ms ease-in-out 0ms;
+    transition: display 500ms ease-in-out 0ms,
+        -webkit-transform 500ms ease-in-out 0ms;
+    -o-transition: display 500ms ease-in-out 0ms,
+        transform 500ms ease-in-out 0ms;
+    transition: display 500ms ease-in-out 0ms,
+        transform 500ms ease-in-out 0ms;
+    transition: display 500ms ease-in-out 0ms,
+        transform 500ms ease-in-out 0ms,
+        -webkit-transform 500ms ease-in-out 0ms;
+}
+
+.feature__tabs_body>div.active {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    top: 0px;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+}
+
+.feature__tab_title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+.feature__tab.active {
+    margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.feature__tab_info {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+.feature__tab_heading {
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 52px;
+    margin-bottom: 30px;
+}
+
+.feature__tab_tick {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 13px;
+}
+
+.feature__tab_info .feature__tab_tick:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.feature__tab_tick p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.feature__tab_btn {
+    background-color: #8276FF;
+    border-radius: 31.0938px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 15px 40px;
+    margin-top: 40px;
+    border: 1px solid #8276FF;
+    outline: none;
+    cursor: pointer;
+}
+
+.feature__tab_imageblock {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.feature__tab_image {
+    max-width: 100%;
+}

@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+body {
+    background-color: #100C16;
+}
+main, header {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (max-width: 1340px) {
+    .feature__container {
+        margin: 0 15px;
+    }
+
+}
+
+@media (max-width: 1180px) {
+    .subs__container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 80px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .sub__discount p {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 992px) {
+    .first-section {
+        margin-bottom: 80px;
+    }
+
+    .second-section {
+        margin-bottom: 80px;
+    }
+
+    .fourth-section {
+        margin-bottom: 80px;
+    }
+
+    .fifth-section {
+        margin-bottom: 80px;
+    }
+
+    .fs__container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .fs__infoblock {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .fs__discount {
+        margin: 0 auto;
+    }
+
+    .feature__container {
+        padding: 50px 50px 70px;
+    }
+
+    .feature__tab.active {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-top: 30px;
+        gap: 50px;
+    }
+
+    .feature__tab_title {
+        font-size: 16px;
+    }
+
+    .feature__tab_heading {
+        font-size: 30px;
+    }
+
+    .feature__tab_tick p {
+        font-size: 18px;
+    }
+
+    .feature__tab_btn {
+        margin-top: 25px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .footer__container {
+        gap: 50px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .footer__info {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .footer__btn {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 768px) {
+    br:not(.br) {
+        display: none;
+    }
+
+    .sub__discount p {
+        font-size: 35px;
+    }
+
+    .red_sub__neon {
+        right: 0px;
+    }
+
+    .fts__title {
+        margin-bottom: 50px;
+    }
+
+    .feature__tab_title {
+        display: none;
+    }
+
+    .feature__tabs_header {
+        margin-bottom: 20px;
+    }
+
+    .feature__tab_info .feature__tab_tick:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .sub__discount {
+        right: 0;
+    }
+
+    .third-section {
+        margin-bottom: 60px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 550px) {
+    .sub__card {
+        padding: 30px 45px;
+    }
+
+    .sub__time {
+        margin-bottom: 30px;
+    }
+
+    .sub__price {
+        font-size: 45px;
+    }
+
+    .sub__price::before {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        font-size: 24px;
+        left: -70px;
+    }
+
+    .sub__price::after {
+        width: 58px;
+        height: 3px;
+        top: 35%;
+        left: -70px;
+    }
+
+    .sub__pum {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .sub__tick {
+        margin-top: 10px;
+    }
+
+    .sub__discount {
+        width: 100px;
+        height: 100px;
+    }
+
+    .sub__discount p {
+        font-size: 20px;
+    }
+
+    .sub__feature {
+        font-size: 14px;
+    }
+
+
+    .feature__tab_heading {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 512px) {
+    .header__btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .fs__title, .fs__title span {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .fs__companies {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .fs__btn {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+
+    .sub__btn {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+
+    .footer__btn {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+
+    .feature__container {
+        padding: 30px;
+    }
+
+    .feature__tab_heading {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .feature__tab_tick p {
+        font-size: 12px;
+    }
+
+    .feature__tab_info .feature__tab_tick:not(:last-child) {
+        margin-bottom: 0px;
+    }
+
+    .feature__tab.active {
+        margin-top: 20px;
+        gap: 20px;
+
+    }
+
+    .feature__tab_btn {
+        font-size: 16px;
+        padding: 10px 30px;
+        margin-top: 16px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .footer__sale {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:400px) {
+    .fs__btn {
+        font-size: 12px;
+        padding: 8px 24px;
+    }
+
+    .footer__btn {
+        font-size: 12px;
+        padding: 8px 24px;
+    }
+
+    .sub__card {
+        padding: 20px 30px;
+    }
+
+    .sub__price {
+        font-size: 30px;
+    }
+
+    .sub__time {
+        font-size: 25px;
+    }
+
+    .sub__price::before {
+        font-size: 16px;
+        left: -50px;
+    }
+
+    .sub__price::after {
+        width: 40px;
+        left: -50px;
+    }
+
+    .sub__pum {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .sub__btn {
+        font-size: 12px;
+        padding: 8px 24px;
+    }
+
+    .sub__discount {
+        width: 70px;
+        height: 70px;
+        top: -35px;
+    }
+
+    .sub__discount p {
+        font-size: 16px;
+    }
+
+    .feature__tab_switch {
+        -webkit-transform: scale(0.7);
+            -ms-transform: scale(0.7);
+                transform: scale(0.7)
+    }
+
+    .feature__tab_btn {
+        font-size: 12px;
+        padding: 8px 24px;
+    }
+
+    .footer__sale {
+        font-size: 30px;
+    }
+}
+
